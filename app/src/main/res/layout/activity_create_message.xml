@@ -28,6 +28,17 @@
         android:layout_alignStart="@+id/send"
         android:layout_below="@+id/send"
         android:layout_marginTop="20dp"
-        android:text="TextView"
+        android:text=""
         android:ems="10"/>
+
+    <Button
+        android:id="@+id/sendToIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="24dp"
+        android:text="@string/send_to_intent"
+        android:onClick="onSendIntent"/>
 </RelativeLayout>

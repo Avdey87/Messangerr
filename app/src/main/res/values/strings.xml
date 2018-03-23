@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Messangerr</string>
-    <string name="send">Send Message</string>
+    <string name="send">Send to Activity</string>
+    <string name="send_to_intent">Send to Intent</string>
 </resources>
